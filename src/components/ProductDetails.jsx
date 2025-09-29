@@ -64,7 +64,7 @@ const ProductDetails = () => {
 
   return (
     <div>
-      <Header />
+     
 
       <section className="py-20 bg-green-800 min-h-screen relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row gap-12 items-start">

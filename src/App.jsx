@@ -11,7 +11,6 @@ import CompactCameras from "./components/CompactCameras";
 import Accessories from "./components/Accessories";
 import LensePage from "./components/LensePage";
 
-
 const App = () => {
   return (
     <Router>
@@ -29,22 +28,12 @@ const App = () => {
         <Route path="/lenses" element={<LensePage />} />
 
         {/* 📸 Compact Cameras */}
-        <Route
-          path="/compact-cameras"
-          element={<CompactCameras />}
-        />
+        <Route path="/compact-cameras" element={<CompactCameras />} />
 
         {/* 🧰 Accessories */}
-        <Route
-          path="/accessories"
-          element={<Accessories />}
-        />
+        <Route path="/accessories" element={<Accessories />} />
 
-       
-        <Route
-          path="/about"
-          element={<About />}
-        />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );
