@@ -4,6 +4,8 @@ import Header from "../components/Header";
 import Products from "../components/Products";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "./About";
+import LenseMainPage from "./Lenses/LenseMainPage";
 
 const HomePage = () => {
   useEffect(() => {
@@ -16,7 +18,7 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-green-900 text-white">
-      <Header />
+    
 
       <main>
         <div data-aos="fade-down">
@@ -25,6 +27,12 @@ const HomePage = () => {
 
         <div data-aos="fade-up" data-aos-delay="200">
           <Products />
+        </div>
+        <div>
+          <About />
+        </div>
+        <div>
+          <LenseMainPage />
         </div>
       </main>
     </div>
