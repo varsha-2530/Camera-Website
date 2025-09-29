@@ -6,9 +6,10 @@ import HomePage from "./page/HomePage";
 import ProductDetails from "./components/ProductDetails";
 import About from "./page/About";
 import Header from "./components/Header";
-import Lense from "./components/lense";
+
 import CompactCameras from "./components/CompactCameras";
 import Accessories from "./components/Accessories";
+import LensePage from "./components/LensePage";
 
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
         <Route path="/product/:id" element={<ProductDetails />} />
 
         {/* 📷 Lenses Page */}
-        <Route path="/lenses" element={<Lense />} />
+        <Route path="/lenses" element={<LensePage />} />
 
         {/* 📸 Compact Cameras */}
         <Route

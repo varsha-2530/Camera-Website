@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import HeroSection from "../components/HeroSection";
-import Header from "../components/Header";
+
 import Products from "../components/Products";
 import AOS from "aos";
 import "aos/dist/aos.css";

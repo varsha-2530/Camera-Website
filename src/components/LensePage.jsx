@@ -27,7 +27,7 @@ const lenses = [
   },
 ];
 
-const Lense = () => {
+const LensePage = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
@@ -96,4 +96,4 @@ const Lense = () => {
   );
 };
 
-export default Lense;
+export default LensePage;
